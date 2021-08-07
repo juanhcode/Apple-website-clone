@@ -1,0 +1,322 @@
+@font-face {
+    font-family: sfRegular;
+    src: url(fonts/SF-UI-Display-Regular.otf);
+}
+@font-face {
+    font-family: SFPro;
+    src: url(fonts/SF-Pro/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+    font-family: SFProLight;
+    src: url(fonts/SF-Pro/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: SFProRoundLight;
+    src: url(fonts/SF-Pro/SF-Pro-Text-Regular.otf);
+}
+
+/*Resetear*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Menu*/
+#nav{
+    width: 100%;
+    height: 45px;
+    background-color: #323233;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position:fixed;
+}
+#nav ul{
+    list-style: none;
+    margin: 0px auto;
+}
+
+#nav > ul > li{
+    line-height:45px;
+    float: left;
+    padding-left: 68px; 
+}
+
+    /*Icon apple*/
+#nav > ul > li:first-child{
+    line-height: 45px;
+    padding-left: 462px;
+}
+
+.fab{
+    font-size: 20px;
+    color: #CDCDCD;
+}
+
+    /*icon search*/
+.fas{
+    font-size: 17px;
+    color: #CDCDCD;
+    line-height: 45px;
+}
+i:hover{
+    color: white;
+}
+
+
+#nav ul li a{
+    text-decoration: none;
+    color:#D6D6D6;
+}
+
+#nav ul li a:hover{
+    color: white;
+}
+
+/*----------------------*/
+
+
+.separador{
+    width: 100%;
+    height: 12px;
+    background-color: white;
+}
+
+/*Seccion Iphone 12*/
+.iphone-12{
+    height:651px;
+    background-image: url(img/iphone-12.jpg);
+    background-attachment:local;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.iphone-12 h1{
+    padding-top:63px;
+    font-family: sfRegular;
+    text-align: center;
+    font-weight: bold;
+    font-size: 54px;;
+
+}
+.iphone-12 h2{
+    padding-top:6px;
+    padding-bottom: 12px;
+    font-family: sfRegular;
+    text-align: center;
+    font-style: initial;
+    font-size: 27px;
+}
+
+.iphone-12 a,.iphone-12-pro a,.ipad-pro a{
+    display:block;
+    text-align: center;
+    font-family: arial,sans-serif;
+    text-decoration:none;
+    color: #1472D0;
+    font-style: inherit;
+    font-size:19px;
+}
+
+.iphone-12 a:hover,.iphone-12-pro a:hover,.ipad-pro a:hover,.ipad-pro a:hover{
+    text-decoration:underline;
+}
+/*-----------------------------------*/
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+
+/*Seccion Iphone 12-pro*/
+.iphone-12-pro{
+    height: 639px;
+    background-image: url(img/iphone_12_pro_us.jpg);
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*---------------------*/
+
+/*Seccion Ipad Pro*/
+.ipad-pro{
+    height: 693px;
+    background-image: url(img/Ipad.jpg);
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*------------------*/
+
+.title{
+    padding-top:63px;
+    font-family: sfRegular;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.description{
+    font-family: sfRegular;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+/*Contenido*/
+#contenido{
+    display:grid;
+    width:190px;
+    height:1765px;
+    background-color:rgb(255, 249, 249);
+    grid-template-columns: auto auto;
+}
+/*-------------------*/
+
+/*Imac*/
+.imac{
+    text-align: center;
+    background-color:#fafafa;
+    background-image: url(img/imac.jpg);
+    background-attachment:local;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+}
+
+.title-imac,.ios h1{
+    padding-top:60px;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 40px;
+    color: #131314;
+    font-family: SFPro;
+}
+
+.imac p{
+    font-size: 21px;
+    font-family: SFProLight;
+}
+.imac a{
+    font-size: 17px;
+    color:#1272b5;
+}
+
+/*-------------------------------*/
+
+
+/*Watch*/
+.watch{
+    width:934px;
+    height:579px;
+    background-image: url(img/watch.jpg);
+    background-attachment:local;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.logowatch{
+    text-align: center;
+    padding-top:54px;
+}
+.watch p{
+    padding-top: 3px !important;
+    color:white;
+    font-family: SFProLight;
+    text-align: center;
+    font-size: 21px;
+}
+.watch a{
+    padding-top:21px;
+}
+/*-----------------*/
+
+
+/*IOS 15*/
+.ios{
+    width:934px;
+    height:579px;
+    background-image: url(img/ios15.jpg);
+    background-attachment:local;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.ios h1{
+    text-align:center;
+    padding-top:28px;
+    color: #1d1d1f;
+    font-size: 38px;;
+}
+.ios p{
+    text-align:center;
+    font-family: SFProRoundLight;
+    color: #1d1d1f;
+    font-size: 20px;
+}
+.ios a{
+    font-size:17px !important;
+}
+
+
+
+/*Airtag*/
+.airtag{
+    width:934px;
+    height:579px;
+    background-image: url(img/airtag.jpg);
+    background-attachment:local;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+
+/*Itunes*/
+.itunes{
+    width:934px;
+    height:579px;
+    background-image: url(img/Billie.jpg);
+    background-attachment:local;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+
+
+/*Apple tv*/
+.appletv{
+    width:934px;
+    height:579px;
+    background-image: url(img/appletv.jpg);
+    background-attachment:local;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+/*Links*/
+.imac a,.watch a,.ios a,.airtag a,.itunes a,.appletv a{
+    display:block;
+    text-align: center;
+    font-family: arial,sans-serif !important;
+    text-decoration:none;
+    color: #1472D0;
+    font-style: inherit;
+    font-size:19px;
+    padding-top: 15px;
+}
+
+/*subrayado de enlace*/
+.imac a:hover,.watch a:hover,.ios a:hover,.airtag a:hover,.itunes a:hover,.appletv a:hover{
+    text-decoration: underline;
+}
+
+/*Ancho y alto de las cajas*/
+.box{
+    width:934px;
+    height:579px;
+    margin-left: 16px;
+}
