@@ -220,7 +220,7 @@ i:hover{
     text-align: center;
     padding-top:54px;
 }
-.watch p,.itunes p{
+.watch p,.itunes p,.appletv p{
     padding-top: 3px !important;
     color:white;
     font-family: SFProLight;
@@ -285,7 +285,7 @@ i:hover{
     border-radius: 15px;
 }
 
-.itunes a{
+.itunes a,.appletv a{
     color:white !important;
 }
 
