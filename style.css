@@ -185,7 +185,7 @@ i:hover{
     background-repeat: no-repeat;
 }
 
-.title-imac,.ios h1{
+.title-imac,.ios h1,.airtag h1{
     padding-top:60px;
     font-style: bold;
     font-weight: 400;
@@ -220,7 +220,7 @@ i:hover{
     text-align: center;
     padding-top:54px;
 }
-.watch p{
+.watch p,.itunes p{
     padding-top: 3px !important;
     color:white;
     font-family: SFProLight;
@@ -243,13 +243,13 @@ i:hover{
     background-repeat: no-repeat;
     border-radius: 15px;
 }
-.ios h1{
+.ios h1,.airtag h1{
     text-align:center;
     padding-top:28px;
     color: #1d1d1f;
     font-size: 38px;;
 }
-.ios p{
+.ios p,.airtag p{
     text-align:center;
     font-family: SFProRoundLight;
     color: #1d1d1f;
@@ -263,6 +263,7 @@ i:hover{
 
 /*Airtag*/
 .airtag{
+    background-color: #fbfbfd;
     width:934px;
     height:579px;
     background-image: url(img/airtag.jpg);
@@ -282,6 +283,10 @@ i:hover{
     background-position:bottom center;
     background-repeat: no-repeat;
     border-radius: 15px;
+}
+
+.itunes a{
+    color:white !important;
 }
 
 
